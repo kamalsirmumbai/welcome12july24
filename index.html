@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title> 3rd App by Kamal Sir </title>
+		<style>
+			h1 { font-size:120px; color:white;}
+			body { background-color:lightblue; }
+		</style>
+	</head>
+
+	<body>
+	<center>
+		<br/>
+		<h1 id="msg"> </h1>
+		
+		<script>
+			let msg = document.getElementById("msg");
+			let d = new Date();
+			let hr = d.getHours();
+			
+			if (hr < 12)		
+				msg.innerHTML = "Good Morning";
+			else if (hr < 16)
+				msg.innerHTML = "Good Afternoon";
+			else
+				msg.innerHTML = "Good Evening";
+		</script>
+	</center>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
